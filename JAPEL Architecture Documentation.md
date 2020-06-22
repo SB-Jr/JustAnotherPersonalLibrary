@@ -26,11 +26,11 @@ The following are the requirements we are trying to achieve with the help of dif
 
 Given the requirements we have finalised to use the following:
 
-- Porgraming Language: **Javascript** 
+- Programming Language: **Vanilla Javascript** 
 
   As it is one of the best cross platform UI rich language and we can achieve any given UX component easily, so choosing JS as our UI language
 
-- Desktop Client Framework: **ElectorJS**
+- Desktop Client Framework: **ElectonJS**
 
   This provides a easy way to create desktop interfaces and is also desktop agnostic giving us ample opportunity to experiment with better UX deigns without much hassle.
 
@@ -49,7 +49,8 @@ Given the requirements we have finalised to use the following:
 - Other Tools: 
 
   - **RequireJS**
-  - Templating Library: 
+  - Templating Library:
+  - Devtron - Chrome extension specifically for electron.Handles linting. 
 
 ## Engine Requirements
 
