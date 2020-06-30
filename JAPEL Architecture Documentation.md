@@ -1,3 +1,5 @@
+Goto solution for notes management…..
+
 # JAPL architecture research
 
 ## Components
@@ -73,7 +75,7 @@ GIven the following requirements we have concluded to research on the following 
 
   Javascript has an edge over python that it can be easily incorporated with our UI without much hassle. It also has nodeJs support through which we can access  multiple frameworks. 
 
-- Indexing Engine: Elasticsearch, solr
+- Indexing Engine: Elasticsearch, solr, whoosh
 
   Indexing engine will have the task to create hash indexes for each file and then store it in the database. It should also be able to fetch the proper results when a text has been provided. 
 
@@ -109,13 +111,13 @@ GIven the following requirements we have concluded to research on the following 
 
 
 
-Search through your notes/files
-
 ## **Environment**
 
 Considering we have less UI Components to use and more backend logic, It is preferable to look into the frameworks best suited for backend logic. But we would still need to research into Frontend frameworks.
 
 ### _Possible Options for Frontend_
+
+Choice: Vanila Js with other libraries
 
 1. **Angular.js**  
     - Can be used to develop mobile &amp; web apps. Mobile apps with Ionic  
@@ -130,6 +132,13 @@ Considering we have less UI Components to use and more backend logic, It is pref
      - Learning curve is low due to it&#39;s minimalistic nature.  
      - Performance is good due to light-weight &amp; virtual DOM structure  
      - App structure can be flexible &amp; provides developer with freedom to experiment  
+3. **Vanila Js**
+     - Can create our own workflow
+     - Can create more better pluggable interface
+     - Can provide more support to 3rdparty libraries
+     - Can control how data flows and how it is hanndled
+     - Less learning curve
+     - Can be used to create any kind of interface
 
 ### _Possible Options for Backend_
 
@@ -139,7 +148,6 @@ Considering we have less UI Components to use and more backend logic, It is pref
     - A good advantage with express is how it supports a lot of other packages and other template engines such as Pug, Mustache, EJS and a lot more.  
     - Focused on browsers making templating &amp; rendering easy. Supports MVC.
     - Low learning curve, lots of resources available online  
-
 2. **Next.js**
     - Built upon front-end library React.js
     - It provides Server Side Rendering
@@ -148,6 +156,21 @@ Considering we have less UI Components to use and more backend logic, It is pref
     - It has built-in CSS support called CSS-In-JS
     - Also has Webpack Configurations to Continuous Deployment
     - [https://levelup.gitconnected.com/a-simple-next-js-frontend-for-a-multilingual-website-ae31a17387e2](https://levelup.gitconnected.com/a-simple-next-js-frontend-for-a-multilingual-website-ae31a17387e2)
+3. **ElasticSearch**
+    - Based on Java
+    - Low learning curve
+    - Needs a proper server to be running to acces it’s components
+4. **Lucene**
+    - Java Based
+    - has a python wrapper called pyLucene and Lupyne
+    - Older than elasticsearch
+    - Bit tough to use compared to elasticsearch
+5. **Whoosh**
+    - Built from scratch in pure python
+    - Python based library
+    - Doesnt need a server running to work
+    - Doesnt require a 3rdparty database for index storage
+    - Python provides a lot of functionality when it comes to file accessing, parallelizing and string manipulation
 
 _Factors to choose the framework:_
 
