@@ -51,3 +51,8 @@ Cli tool will provide a fast interface to the engine with least focus on customi
 3. Configuration Interface
 4. Onboarding Interface
 5. CLI Plugin interface
+
+[Link to diagram](https://app.lucidchart.com/documents/edit/fb17cc0c-d1c6-42a3-b86d-61532b788407/0_0#?folder_id=home&browser=icon)
+
+<img src='JAPL_module_diagram.png' />
+
