@@ -2,7 +2,7 @@
 
 ## Interface
 
-### Document Iterface
+### Document Module
 
 1. _Fetch Document Layer_: Fetches the document user wants to view.
 2. _Config Transformer_: Transforms the fetched document according to the user’s configuration
@@ -10,42 +10,42 @@
 4. _In Document Search_: Provide search interface while displaying document. Seacrh can be either local(i.e. in current document) or global(i.e. in the whole file system using engine)
 5. _Generate Metdata_: Generate metadata based on some policy and post the metadata to engine
 
-### Dashboard
+### Dashboard (What will dashboard represent?)
 
 1. _Fetch Dashboard_: Fetches dashboard data for the user.
 2. _Config Transformer_: Transforms the fetched dashboard according to the user’s configuration
 3. _Dashboard Display Interface_: Displays the trasnformed dashboard data for user’s viewing
 
-### Search Interface
+### Search Module
 
 1. _Show Search Box_: Dispays a search box and other options according to the user’s configuration
 2. _Post Search Query_: Posts the search query to the engine
 3. _Fetch Search Query_: Fetches the query results from engine
-4. _Config Transformer_: Transforms the result as per user’s configuration
+4. _Config Transformer_: Transforms the result as per user’s configuration (search result page configurations)
 5. _Display Result_: Display the transformed result to the user.
-6. _Open File_: Posts the file info for fetching file data selected by user
+6. _Open File_: Posts the file info for fetching file data selected by user (displays a file using Document module)
 7. _Generate Metadata_: create metadata based on some policy and post the metadata to engine
 
-### Folder View Interface
+### Folder View Module ( left side panel showing folders view - Add, View & Delete folders)
 
-1. _Fetch Folders_: Fetches the list of files and folders.
+1. _Fetch Folders_: Fetches the list of files and folders. 
 2. _Config Transformer_: Trasnforms the fetched result as per user’s configuration
 3. _Display Result_: Shows the result to the user after it is trasnformed
 4. _Open File_: Post file info to open a file requested by user
 5. _Generate Metadata_: create metadata based on some policy and post the metadata to engine
 
-### OnBoarding Interface
+### OnBoarding Interface ( location of folder )
 
 1. _Initial Configuration_: Setup initial configuration for user
 2. Show animations and button highlighter
 3. Tips and Tricks Highlighter
 4. _Generate Metadata_: create metadata based on some policy and post the metadata to engine
 
-### Configuation Interface
+### Configuation Interface ( settings/config )
 
 1. _Configuration Fetch_: Fetched stored configuration
 2. _Configuration Change Interface_: Allowing user to change different configuration
-3. _Configuration store_: Posting configuration to engine for stpring purpose
+3. _Configuration store_: Posting configuration to engine for string purpose
 4. _Configuration Change Effect_: Reloading interface configuration if any interface related configuration has changed
 
 ### Plugin MarketPlace
@@ -65,7 +65,6 @@
 
 1. Store cache if required
 2. Store view configurations
-
 
 
 ## Engine
@@ -120,7 +119,7 @@
 2. _Retreive Configuration_: retrieve configuration when needed
 3. _Update Configuration_: Update configuration when needed
 
-### Pluggin Engine
+### Plugin Engine
 
 1. _Retreive Plugin Info_: query github/gitlab and retrieve latest list of configuration
 2. _Store Plugin info_: Store info about plugins that are installed

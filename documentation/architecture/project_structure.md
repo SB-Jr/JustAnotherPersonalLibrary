@@ -20,7 +20,7 @@ Currently the sub-components in UI are:
 4. Folder View interface
 5. Onboarding interface
 6. Configuration Interface
-7. Pluggin Marketplace
+7. Plugin Marketplace
 8. Interface Controller
 9. Interface Model
 
