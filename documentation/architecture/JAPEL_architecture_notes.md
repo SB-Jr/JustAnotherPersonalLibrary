@@ -4,7 +4,7 @@ Goto solution for notes management…..
 
 ## Components
 
-- UI 
+- Callisto(UI) 
   - Elements for user interaction
   - Layer to interact with engine
 - Engine
@@ -18,7 +18,7 @@ Goto solution for notes management…..
 
 ## Requirements
 
-### UI
+### Callisto
 
 The following are the requirements we are trying to achieve with the help of different tools, frameworks and libraries.
 

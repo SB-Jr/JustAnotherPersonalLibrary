@@ -2,13 +2,13 @@
 
 The prject has been devided into 2 components
 
-1. Interface
+1. Callisto
 2. Engine
 3. CLI tool
 
 
 
-## Interface
+## Callisto
 
 User interface will contain the code which interacts with the user only. 
 
